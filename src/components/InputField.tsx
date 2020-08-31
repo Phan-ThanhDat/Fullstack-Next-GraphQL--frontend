@@ -10,7 +10,6 @@ import { useField } from 'formik';
 type InputFieldProps = InputHTMLAttributes<HTMLInputElement> & {
   name: string;
   label: string;
-  size: never;
 };
 
 const InputField: React.FC<InputFieldProps> = ({
